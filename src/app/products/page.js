@@ -1,6 +1,7 @@
 'use client'
 
 import { Layout } from '@/components/Layout/Layout'
+import { randomId } from '@/utils/utils'
 import React, { useState } from 'react'
 
 const Products = () => {
@@ -16,7 +17,7 @@ const Products = () => {
   const onSubmit = (e) => {
     e.preventDefault()
     let products = JSON.parse(localStorage.getItem('products')) || []
-    products = [...products, formData]
+    products = [...products, {...formData, id: randomId()}]
     localStorage.setItem('products', JSON.stringify(products))
     setFormData({
         name: '',
@@ -26,6 +27,7 @@ const Products = () => {
         stock: '',
         image: ''
     })
+    alert("Product added successfully!")
   }  
   
   return (
