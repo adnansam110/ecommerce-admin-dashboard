@@ -23,3 +23,9 @@ bun dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+
+## Dashboard Walk-Through
+
+1. When you the the web app it will redirect you the inventory page where you can see a table that lists all the products. You can search, sort and apply filters to that list.
+2. On clicking the `Add Product` in the side bar, you will be redirected to the page where you can add a new product. After successfully creating the product, it will be added to the list shown in Inventory.
+3. On clicking the `Revenue Analysis` in the side bar, you will be redirected to the revenue page where all the data is shown in the form of bar charts
