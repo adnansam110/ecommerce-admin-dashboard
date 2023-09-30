@@ -29,3 +29,6 @@ You can start editing the page by modifying `app/page.js`. The page auto-updates
 1. When you the the web app it will redirect you the inventory page where you can see a table that lists all the products. You can search, sort and apply filters to that list.
 2. On clicking the `Add Product` in the side bar, you will be redirected to the page where you can add a new product. After successfully creating the product, it will be added to the list shown in Inventory.
 3. On clicking the `Revenue Analysis` in the side bar, you will be redirected to the revenue page where all the data is shown in the form of bar charts
+
+## Check out the dashboard at:
+https://6517e037b44105033c1b3428--frolicking-treacle-966a58.netlify.app/
