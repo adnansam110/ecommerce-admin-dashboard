@@ -65,7 +65,7 @@ const Table = () => {
   };
 
   return (
-    <div className="w-full h-screen p-10">
+    <div className="w-full pl-10 pr-10 mt-5">
       <input
         className="mb-3 border border-gray-600 focus:border-gray-700 rounded-md px-2 py-1 text-gray-700 w-auto"
         type="text"
